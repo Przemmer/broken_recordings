@@ -21,7 +21,7 @@ window = 8
 #  Second method   #
 #  (sudden drop)   #
 #                  #
-####################
+#################### 
 
 # treshold for absolute value of sample to be considered as 'low signal'
 ls_treshold = 2

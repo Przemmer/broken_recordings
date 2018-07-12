@@ -131,7 +131,7 @@ def main():
     file_name = sys.argv[1]
     method = sys.argv[2]
 
-    if method == 'method_1':
+    if method == 'method_1': 
         detect_broken_recording(file_name, min_treshold=config.min_treshold, 
                                 max_treshold=config.max_treshold, window=config.window)
         return
@@ -144,7 +144,7 @@ def main():
     print_usage()
     
 
-if __name__ == '__main__':
+if __name__ == '__main__': 
     if len(sys.argv) < 3:
         print_usage()
     else:
